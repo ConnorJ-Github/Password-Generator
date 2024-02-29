@@ -45,6 +45,10 @@ const includeUpperCase = true;
 const includeNumbers = true;
 const includeSymbols = true;
 
-const password = generatePassword(passwordLength,includeLowerCase,includeUpperCase,includeNumbers,includeSymbols);
+function createPassword()
+{
+    const password = generatePassword(passwordLength,includeLowerCase,includeUpperCase,includeNumbers,includeSymbols);
+    document.getElementById('password').textContent = password;
+}
 
-console.log('Generated Password: ${password}');
+
