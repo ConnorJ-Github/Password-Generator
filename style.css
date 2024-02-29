@@ -20,8 +20,6 @@ h1 {
     padding: 1rem;
 
     gap: 1rem;
-
-    min-width: 300px
 }
 
 .output{
@@ -40,9 +38,11 @@ h1 {
     outline: 2px solid black;
 
     padding:1rem;
-
-    width: 70%;
     border-radius: 5px;
+
+    max-height: 70px;
+    width: 300px;
+text-align: center;
 }
 
 button {
@@ -55,8 +55,6 @@ button {
     cursor: pointer;
 
     border-radius: 5px;
-
-    max-height: 70px;
 }
 
 button:hover{
